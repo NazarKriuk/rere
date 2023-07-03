@@ -3,10 +3,9 @@
     padding: 0;
     margin: 0;
 }
-.container{
-    width: 1093px;
-    margin: auto;
-    
+.container {
+  width: 70rem;
+  margin: 0 auto; /* Це додає вирівнювання по центру */
 }
 .header{
     display: flex;
