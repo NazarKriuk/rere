@@ -1,0 +1,303 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1093px;
+    margin: auto;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    align-items: center;
+    height: 43px;
+    margin-bottom: 120px;
+}
+.logo{
+    display: flex;
+    width: 103px;
+    height: 43px;
+
+}
+.logo p {
+    padding-left: 15px;
+   
+    font-weight: bold;
+}
+
+
+.item{ 
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+.item-list {
+    
+    line-height: 26px;
+    
+    color: #101828;
+    transition: color 0.3s ease-in-out;
+}
+.item-list:hover{
+    cursor: pointer;
+    color:  #006D77;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 137px;
+    height: 45px;
+    border-radius: 47px;
+    background-color: #101828 ;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+.button {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn:hover{
+    background-color:  #006D77;
+    
+    
+}
+
+.content{
+    display: flex;
+    margin-bottom: 150px;
+    position: relative;
+}
+.content-left {
+    float: left;
+    width: 63%;
+    margin-right: 60px;
+  }
+  
+  .content-right {
+    float: left;
+    width: 25%;
+    height: 50vh;
+    margin-top: 100px;
+  }
+
+  .content-title h1{
+    line-height: 26px;
+    font-size: 25px;
+    color: #98A2B3;
+    margin-bottom: 45px;
+  }
+  .content-title h2{
+    line-height: 50px;
+    font-size: 60px;
+    color: #101828;
+    line-height: 1.2;
+    margin-bottom: 45px;
+  }
+  .content-title p{
+    font-family: 'Merriweather', serif;
+    line-height: 26px;
+    font-size: 16px;
+    
+    color: #475467;
+    
+    margin-bottom: 45px;
+    letter-spacing: 0.72px;
+  }
+
+  .content-button{
+   display: flex;
+   justify-content:flex-start;
+   gap: 30px;
+   margin-bottom: 50px;
+
+  }
+  .bbutton{
+    display: flex;
+    text-decoration: none;
+    color: #FFFFFF;
+    align-items: center;
+    background-color:  #101828;
+    padding: 15px 25px;
+    border-radius: 5px;
+    transition: 0.4s ease;
+   
+  }
+  .button-text {
+    margin-right: 8px; /* Задайте бажане значення відступу між текстом і SVG */
+  }
+  .bbutton:nth-child(2){
+    color: #101828 ;
+    background-color: transparent;
+  }
+
+
+
+  
+  .bbutton:hover{
+    background-color: transparent;
+    color: #101828;
+    
+  }
+
+  .bbutton:nth-child(2):hover{
+    background-color: #101828;
+    color: white;
+
+  }
+
+  .bbutton:nth-child(1) svg path {
+    fill: white; /* Початковий колір */
+    transition: fill 0.3s ease; /* Плавна анімація зміни коліру протягом 0.3 секунди */
+  }
+
+  .bbutton:nth-child(1):hover svg path {
+    fill: #101828; /* Задайте бажаний колір для ховеру */
+  }
+
+  .bbutton:nth-child(2) svg path {
+    fill: #101828; /* Початковий колір */
+    transition: fill 0.3s ease; /* Плавна анімація зміни коліру протягом 0.3 секунди */
+  }
+
+  .bbutton:nth-child(2):hover svg path {
+    fill: white; /* Задайте бажаний колір для ховеру */
+  }
+
+
+.results {
+    display: flex;
+    gap: 50px;
+}
+.projects{
+    display: flex;
+    align-items: center;
+}
+  .project-text{
+    text-align:left;
+    margin-left: 10px;
+  }
+  .number {
+    display: block; /* Зробити елемент блочним, щоб він займав весь рядок */
+    font-size: 26px; /* Розмір шрифту для числа */
+    font-weight: bold; /* Жирний шрифт для числа */
+  }
+  
+  .text {
+    display: block; /* Зробити елемент блочним */
+    font-size: 16px;
+    color: #66728B; /* Розмір шрифту для тексту */
+  }
+
+  .customers{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .static-page{
+    position: absolute;
+bottom: -30px;
+right: -90px;
+  }
+
+
+  .circle{
+    position: absolute;
+    top: 100px;
+    right: 325px;
+  }
+  .circle2{
+    position: absolute;
+    bottom: 80px;
+    right: 300px;
+  }
+
+  .circle3{
+    position: absolute;
+    top: -35px;
+    right: 40px;
+  }
+  .product{
+    margin-bottom: 90px;
+  }
+.product-element{
+  display: flex;
+  gap: 30px;
+}
+.product-element-card{
+  display: flex;
+  border: 2px solid black;
+  border-radius: 6px;
+  border-color: #E4E7EC;
+  padding: 20px;
+  height: 75px;
+}
+
+
+
+
+.number-element{
+
+    font-size: 16px; /* Розмір шрифту для числа */
+    font-weight: 600;
+    line-height: 26px;
+   
+}
+
+.number-element:first-child {
+  white-space: nowrap;
+}
+.price{
+  font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height: 26px;
+  font-weight: 300;
+  display: block; /* Зробити елемент блочним */
+    font-size: 16px;
+    color: #66728B;
+
+
+}
+.product-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.goods h2{
+  text-align: center;
+  
+}
+.product-header{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+.goods-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goods-list{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 83px;
+}
+
+.goods-description{
+  display: block;
+}
